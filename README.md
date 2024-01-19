@@ -61,6 +61,28 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## To start the project
+
+You simply need to install the dependencies
+```
+npm install
+composer install
+```
+
+Ensure that you migrate the last data base migration using php artisan
+```
+// This will delete the current database
+migrate:fresh
+```
+
+
+Run it as a dev would go like this:
+
+Ensure that you migrate the last data base migration using php artisan
+```
+npm run dev
+```
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
